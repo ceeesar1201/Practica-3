@@ -26,6 +26,7 @@ BP_PotatoPieza: mesh de la pieza con física y componente de agarre (BP_GrabComp
 Dardos
 Cómo se juega: coge un dardo con U, sube la mano a la altura de la diana con R, avanza hacia ella con W y suelta U en movimiento. El dardo se queda clavado y el marcador de al lado suma los puntos: 50 en el centro y 10 menos por cada anillo de 4 cm.
 Blueprints:
+El dardo tiene la gravedad desactivada para que vuele recto, porque en el simulador los lanzamientos con teclado salen con muy poca fuerza.
 BP_Dardo: mesh del dardo con física, CCD, Simulation Generates Hit Events y componente de agarre. En On Component Hit, si choca con la diana, desactiva Simulate Physics, se acopla con Attach Actor To Actor (reglas Keep World) y calcula los puntos según la distancia entre el punto de impacto y el centro de la diana.
 BP_Diana: mesh de la diana, variables Puntos y AnchoAnillo, evento SumarPuntos y un Widget Component en el mundo que muestra el marcador.
 WBP_Marcador: Widget Blueprint con el texto de la puntuación.
