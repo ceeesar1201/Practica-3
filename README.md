@@ -52,3 +52,19 @@ Mejoras implementadas
 Marcador de dardos acumulativo: suma la puntuación de todos los dardos lanzados.
 Paredes de contención alrededor del jarrón para que los fragmentos no se dispersen por la sala.
 Material físico de baja fricción en la bola de bolos (PM_Bola) para que ruede hasta los bolos.
+
+Entorno
+
+La sala está ambientada como un diner americano de los años 50:
+
+Paredes con zócalo, columnas y mobiliario de estilo diner.
+Suelo de damero.
+Iluminación propia con focos en las lámparas del techo.
+Carteles de neón en cada estación, hechos con Text Render, un material emisivo y una luz de color que tiñe la pared.
+Estaciones repartidas por la sala a escala real, cada una con su mesa o pedestal a la altura de las manos.
+
+Mejoras implementadas
+Sala personalizada con ambientación de diner, iluminación propia y carteles de neón.
+Marcador de dardos acumulativo: suma la puntuación de todos los dardos lanzados.
+Paredes de contención alrededor del jarrón para que los fragmentos no se dispersen por la sala.
+Material físico de baja fricción en la bola de bolos para que ruede hasta los bolos.
