@@ -1,4 +1,5 @@
 Práctica 3 – Sala de minijuegos en VR
+/El readme en github se ve raro, si se abre con bloc de notas mejor/
 
 Desarrollo de Experiencias de Realidad Virtual. Sala de minijuegos en VR con cuatro estaciones: bolos, Wreck-It Ralph, Mr. Potato y dardos.
 
